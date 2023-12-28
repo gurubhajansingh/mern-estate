@@ -36,7 +36,6 @@ export default function SignUp() {
     } catch (error){
       setLoading(false);
       setError(error.message);
-
     }
   };
   return (
